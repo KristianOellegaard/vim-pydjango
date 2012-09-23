@@ -595,3 +595,7 @@ if has("autocmd")
 endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""}}}
 
+
+
+autocmd vimenter * if !argc() | NERDTree | endif
+
