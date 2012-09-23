@@ -598,4 +598,4 @@ endif
 
 
 autocmd vimenter * if !argc() | NERDTree | endif
-
+hi Directory guifg=#0000ee ctermfg=LightBlue
